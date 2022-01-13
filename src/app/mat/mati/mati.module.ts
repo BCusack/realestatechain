@@ -7,6 +7,8 @@ import { MatTableModule } from '@angular/material/table';
 import { MatIconModule } from '@angular/material/icon';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatFormFieldModule } from '@angular/material/form-field';
+
 
 
 const matComp = [
@@ -17,6 +19,8 @@ const matComp = [
   MatTableModule,
   MatIconModule,
   MatToolbarModule,
+  MatFormFieldModule,
+
 ];
 
 @NgModule({
